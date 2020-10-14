@@ -15,14 +15,13 @@ function getData(){
     // console.log(username + ' ' + password)
     for(i=0; i<userData.length; i++){
         if(username==userData[i].username && password==userData[i].password){
+            // console.log(username+" is logged in!!!")
             alert(username+" is logged in!!!")
-            return
-        }
-        else{
+            return 
+        }else{
             alert("incorrect username or password")
         }
     }
-    
     // console.log("incorrect username or password")
 
 }
